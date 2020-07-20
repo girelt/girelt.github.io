@@ -13,3 +13,10 @@ div.btnbg {
     left:0;
     top:0;
 }
+#Text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+}
