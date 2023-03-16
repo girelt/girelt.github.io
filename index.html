@@ -386,7 +386,11 @@
 
               jam.innerHTML = getJam+":"+getMenit;
               tanggal.innerHTML = getHari+", "+getTanggal+' '+getBulan+' '+getTahun;
-              pesan.innerHTML = "Hai "+nama+", Selamat "+getPesan;
+              if (nama == "anaraa") {
+                pesan.innerHTML = "Haiiii Bae, Selamat "+getPesan;
+              } else {
+                pesan.innerHTML = "Hai "+nama+", Selamat "+getPesan;
+              }
             }, 1000);
         }
 
